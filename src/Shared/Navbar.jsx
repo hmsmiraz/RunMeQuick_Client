@@ -11,6 +11,9 @@ const Navbar = () => {
       <li>
         <NavLink to="/">Home</NavLink>
       </li>
+      <li>
+        <NavLink to="/runCode">Run Code</NavLink>
+      </li>
     </>
   );
   const handleSignOut = () => {
